@@ -50,7 +50,7 @@
 
 }
 .inner {
-  width: 1450px;
+  width: 100%;
   margin: 0 auto;
 }
 .news_image {
@@ -86,6 +86,8 @@
   background-color: #fff;
   padding-top: 30px;
   text-align: center;
+  width: 1450px;
+  margin: 0 auto;
 }
 .skills_icon {
   width: 300px;
@@ -140,8 +142,6 @@ th:nth-child(n+2),td:nth-child(n+2) {
 
 }
 .fa-facebook-square, .fa-comment-dots, .fa-twitter, .fa-envelope {
-  /* width: 185px;
-  height: auto; */
   text-align: center;
   overflow: hidden;
   font-size: 40px;
