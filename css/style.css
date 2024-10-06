@@ -23,17 +23,18 @@
 .keyvisual-inner {
   position: relative;
 }
-.key_image {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  vertical-align: bottom;
+.keyvisual {
+  background-image: url(../images/keyvisual/keyvisual.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 400px 0;
 }
 .title_set {
-  position: absolute;
+  /* position: absolute; */
   top: 400px;
   left: 50%;
-  transform: translateX(-50%);
+  /* transform: translateX(-50%); */
   text-align: center;
   white-space: nowrap;
 }
@@ -80,18 +81,23 @@
   line-height: 18px;
   text-align: center;
 }
-.news-inner {
-  display: flex;
+.news {
   background-color: #e3f2fd;
 }
-.skills-inner {
+.news-inner {
+  display: flex;
+}
+.skilss {
   background-color: #fff;
+}
+.skills-inner {
   padding-top: 30px;
   padding-bottom: 50px;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
+  background-size: cover;
 }
 .skills_icon {
   width: 300px;
@@ -109,8 +115,10 @@
   justify-content: space-between;
   gap: 100px;
 }
-.plan_set {
+.plan {
   background-color: #d0dfea;
+}
+.plan_set {
   padding: 30px 50px 50px 50px;
 }
 .plan_table {
@@ -138,8 +146,10 @@ td:first-child {
 th:nth-child(n+2),td:nth-child(n+2) {
   border-left: 2px solid #fff;
 }
-.sns-inner {
+.sns {
   background-color: #e3f2fd;
+}
+.sns-inner {
   padding: 200px 0;
   display: flex;
   justify-content: center;
@@ -153,11 +163,13 @@ th:nth-child(n+2),td:nth-child(n+2) {
   background-color: transparent;
   transition: background-color 0.5s;
 }
-.fa-facebook-f:hover, .fa-comment-dots:hover, .fa-twitter:hover, .fa-envelope:hover {
+.fa-facebook-square:hover, .fa-comment-dots:hover, .fa-twitter:hover, .fa-envelope:hover {
   background-color: #fff;
 }
-.footer_set {
+footer {
   background-color: #cfd8dc;
+}
+.footer_set {
   font-size: 13px;
   letter-spacing: 0.5px;
   text-align: right;
@@ -167,11 +179,14 @@ th:nth-child(n+2),td:nth-child(n+2) {
   .inner {
     width: 97%;
   }
+  .keyvisual {
+    padding: 250px 0;
+  }
   .title_set {
-    position: absolute;
+    /* position: absolute; */
     top: 250px;
     left: 50%;
-    transform: translateX(-50%);
+    /* transform: translateX(-50%); */
     text-align: center;
   }
   .main_title span:nth-child(2) {
@@ -240,11 +255,14 @@ th:nth-child(n+2),td:nth-child(n+2) {
   .hamburger-menu {
     display: block;
   }
+  .keyvisual {
+    padding: 200px 0;
+  }
   .title_set {
-    position: absolute;
+    /* position: absolute; */
     top: 200px;
     left: 50%;
-    transform: translateX(-50%);
+    /* transform: translateX(-50%); */
     text-align: center;
   }
   .main_title {
